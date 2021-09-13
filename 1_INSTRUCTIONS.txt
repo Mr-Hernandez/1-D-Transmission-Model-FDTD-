@@ -1,0 +1,18 @@
+Each "input" file pertains to the same numbered case.
+Just run the input file. 
+
+For cases with 2 examples, the program pauses until you hit enter
+then it runs the second part of the case.
+
+The output files named "dataxx" contain voltages and currents 
+across the line at each time step. 
+Running an input file overwrites previous data files.
+The code for the data files output can be found at the end of 'output.m'
+
+
+%Guide for load_case options
+%case 1 - Resistive
+%case 2 - Short
+%case 3 - Open
+%case 4 - Parrallel RC
+%case 5 - Series RL
